@@ -1,0 +1,98 @@
+nav { 
+    width: 200;
+    height: 100;
+    background-color: aqua;
+    border-color: aliceblue;
+    border-radius: 20px;
+}
+p {
+    font-size: large;
+    font-style: italic;
+}
+.empresa   {
+  width: 200;
+height: 200;
+border-radius: 20px;
+position: relative;
+
+}
+.menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.menu li {
+display: inline-block;
+
+}
+
+.menu li a {
+display: block;
+padding: 10px 20px;
+text-decoration: none;
+color: #b4a8a8;
+}
+
+.menu li a:hover {
+background-color: #4c49db;
+border-radius: 20px;
+}
+body {
+background-color: #071030
+}
+.slider {
+width: 100%;
+overflow: hidden;
+}
+
+.slider {
+width: 100%;
+overflow: hidden;
+}
+
+.slide-container {
+display: flex;
+animation: slider 8s linear infinite;
+}
+
+.slide-container img {
+width: 300px;
+height: 400px;
+}
+
+@keyframes slider {
+0% {
+transform: translateX(100%);
+opacity: 0;
+}
+40% {
+transform: translateX(0);
+opacity: 1;
+}
+60% {
+transform: translateX(0);
+opacity: 1;
+}
+70% {
+transform: translateX(-100%);
+opacity: 0;
+}
+100% {
+transform: translateX(-100%);
+opacity: 0;
+}
+}
+#contacto {
+    font-size: large;
+    font-style: italic;
+    color: aliceblue;
+}
+label {
+    font-size: large;
+    font-style: italic;
+    color: aliceblue;
+}
+p2 {
+    color: antiquewhite;
+}
